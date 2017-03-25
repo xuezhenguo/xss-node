@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@3.10.9
+3 info using node@v6.2.2
+4 verbose config Skipping project config: /Users/didi/.npmrc. (matches userconfig)
+5 verbose stack Error: EISDIR: illegal operation on a directory, read
+5 verbose stack     at Error (native)
+6 verbose cwd /Users/didi/workspace/xss-node
+7 error Darwin 15.3.0
+8 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+9 error node v6.2.2
+10 error npm  v3.10.9
+11 error code EISDIR
+12 error errno -21
+13 error syscall read
+14 error eisdir EISDIR: illegal operation on a directory, read
+15 error eisdir This is most likely not a problem with npm itself
+15 error eisdir and is related to npm not being able to find a package.json in
+15 error eisdir a package you are trying to install.
+16 verbose exit [ -21, true ]
